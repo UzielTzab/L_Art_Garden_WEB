@@ -1,0 +1,39 @@
+/* contenedores del header de prueba */
+
+h1 {
+    font-size: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(83, 62, 12);
+    transition: color 1s, transform 0.5s, font-family 5s;
+    transform-origin: center; /* Agrega transform-origin para que la transformación sea desde el centro */
+}
+
+h1:hover {
+    color: rgb(234, 176, 118);
+    transform: scale(1.01);
+}
+
+/* color fuente del header */
+.HeaderColor
+{
+    background-color: rgb(246, 162, 73);
+}
+
+.row{
+    background-color: rgb(198, 138, 82);
+    height: 250px;
+}
+.col{
+    background-color: rgb(83, 62, 12);
+    padding: 6px;
+    transition:  background-color 1s;
+}
+.col:hover{
+    background-color: rgb(223, 197, 112);
+}
+
+/* boton personalizado */
+.btn-custom{
+    background-color: rgb(83, 62, 12);
+    color: rgb(255, 255, 255);;
+}

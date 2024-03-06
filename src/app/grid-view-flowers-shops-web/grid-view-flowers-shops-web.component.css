@@ -1,0 +1,8 @@
+.col{
+    height: 250px;
+    background-color: rgb(202, 142, 96);
+    transition: background-color 1s;
+}
+.col:hover{
+    background-color: rgb(220, 136, 84);
+}

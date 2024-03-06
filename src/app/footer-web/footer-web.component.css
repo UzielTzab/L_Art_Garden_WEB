@@ -1,0 +1,12 @@
+
+.footer-web{
+    
+    height: 200px;
+    background-color: rgb(239, 165, 85);
+    transition: background-color 1s;
+}
+.footer-web:hover{
+    background-color: aquamarine;
+}
+
+
